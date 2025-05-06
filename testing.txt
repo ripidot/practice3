@@ -5,3 +5,12 @@ git remote -v # リモートパスを確認
 
 
 :wq
+
+add->commit->pushの流れ
+
+git add . # すべてのファイル追加
+git add hoge.txt # hoge.txtを追加
+
+git commit -m "huga" # コメントをhugaにしてcommit
+
+git push origin main # originの内容をmainにpush
