@@ -1,1 +1,7 @@
-this is a test
+git branch # branch名を確認
+git branch -m master main # branch名masterをmainにする
+
+git remote -v # リモートパスを確認
+
+
+:wq
