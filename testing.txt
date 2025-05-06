@@ -3,9 +3,11 @@ git branch -m master main # branch名masterをmainにする
 
 git remote -v # リモートパスを確認
 
+git log # 変更履歴を確認
 
 :wq
 
+======================================================
 add->commit->pushの流れ
 
 git add . # すべてのファイル追加
