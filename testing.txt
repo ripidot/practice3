@@ -1,6 +1,7 @@
 git branch # branch名を確認
 git branch -m master main # branch名masterをmainにする
 
+git remote add xxx git@github.com:xxx.git # xxxという名のリポジトリを追加
 git remote -v # リモートパスを確認
 
 git log # 変更履歴を確認
@@ -17,3 +18,7 @@ git commit # vimエディタ上で編集
 git commit -m "huga" # コメントをhugaにしてcommit
 
 git push origin main # originの内容をmainにpush
+======================================================
+addはステージングエリアへのファイル追加
+commmitはローカルリポジトリへのファイル追加
+pushはリモートリポジトリへのファイル追加
